@@ -6,15 +6,12 @@
   }
 
 .MainRow{
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));  
 }
 
-.genericContainer{
-  float: left;
-  width: 25%;
-  border: 1px solid#777777;
+.genericContainer {
+    border: 1px solid#777777;
 }
+
 
